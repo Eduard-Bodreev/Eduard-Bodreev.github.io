@@ -78,9 +78,6 @@ a:hover {
   border-bottom: 1px solid #E0E0E0;
 }
 #header .social-box {
-  display: flex;
-  justify-content: flex-end; /* Перемещаем иконки правее */
-  gap: 10px; /* Отступы между иконками */
   height: 32px;
   margin: 0 auto 0 0;
 }
