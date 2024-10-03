@@ -105,6 +105,27 @@ a:hover {
 #header .social-box a:last-child i {
   margin-right: 0;
 }
+
+/* Добавляем правильное выравнивание для блока social-contact */
+.social-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Выравнивание по правой стороне */
+}
+
+.social-box {
+  margin-bottom: 10px; /* Отступ между иконками и контактной информацией */
+}
+
+.social-box a {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.contact-info {
+  text-align: right; /* Текст контактов выравниваем по правой стороне */
+}
+
 /*================================================================
   #HEADER - header-classic
   ================================================================*/
