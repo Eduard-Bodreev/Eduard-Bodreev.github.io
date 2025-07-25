@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eduard Bodreev - Storage Systems Engineer</title>
+    <title>Eduard Bodreev - DevOps Engineer</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -16,7 +16,7 @@
     <div class="header-classic cv-section">
       <div class="col-md-9-custom">
           <h1>Eduard Bodreev</h1>
-          <h2>Storage Systems Engineer</h2>
+          <h2>DevOps Engineer</h2>
       </div>
       <div class="col-md-4-custom right">
         <div class="social-box">
@@ -45,15 +45,15 @@
       <br />
       <p>Поддержка и развитие отказоустойчивых систем хранения данных на базе Kubernetes-платформы.</p>
       <ul>
+        <li>Разворачивал и сопровождал приложения в Kubernetes с использованием ArgoCD, дорабатывал Helm-чарты, устранял ошибки и настраивал пайплайны CI/CD</li>
+        <li>Администрировал Nexus и Harbor, устранял проблемы с pull образов, восстанавливал сервисы после сбоев, настраивал репозитории и переменные окружения для CI</li>
+        <li>Поддерживал инфраструктуру Clickhouse, PostgreSQL, Redis</li>
+        <li>Участвовал в интеграции Dbaas-решений (ApplicationSet, PeerDB, PGAdmin, CNPG), взаимодействуя с командами разработки и командным центром</li>
         <li>На протяжении 3 месяцев являюсь единственным ответственным за стабильную работу систем хранения данных (Ceph, MinIO, NFS + TopoLVM) в 12 Kubernetes-кластерах (около 140 узлов)</li>
-        <li>Сократил количество инцидентов, связанных с Ceph и TopoLVM: с 3–4 в неделю до 1–2 в месяц за счёт восстановления более 20 OSD, устранения ошибок в конфигурации и работы с отказавшими узлами</li>
-        <li>Конфигурировал и сопровождал StorageClass, ObjectBucketClaim, lifecycle-политики хранения, квоты и политики резервного копирования для Ceph и MinIO</li>
         <li>Настроил систему резервного копирования на базе Velero: создание backup-репозиториев, автоматизация политик РК и полное восстановление проектов, включая PVC и все связанные Kubernetes-ресурсы</li>
         <li>Дополнял и сопровождал инфраструктуру Terraform для MinIO: добавление новых S3-бакетов, пользователей, ролей и политик доступа</li>
-        <li>Участвовал в обновлении Kubernetes-платформы Alauda, а также в обновлении ОС Astra Linux и ядра Linux</li>
-        <li>Настроил RAID-массивы и iSCSI-инфраструктуру: создание LUN, настройка ACL и доступов на уровне серверов</li>
       </ul>
-      <p><b>Технологии:</b> Ceph (CephFS, RADOS Gateway), MinIO, TopoLVM, Velero, Kubernetes (Alauda), Grafana, Prometheus, Terraform, Ansible, PostgreSQL, ClickHouse, Kafka</p>
+      <p><b>Технологии:</b> ArgoCD, Helm, GitLab CI/CD, Vault, Harbor, Nexus, PostgreSQL, Clickhouse, Redis, Kafka, Prometheus, Grafana, Kubernetes, Ceph (CephFS, RADOS Gateway), MinIO, TopoLVM, NFS, Velero, Terraform, Ansible</p>
     </div>
   </div>
     <div class="cv-item"></div>
@@ -146,40 +146,40 @@
     <div class="container text-left col-xs-12">
 
       <div class="row">
-        <div class="col-xs-3"><li>Ceph</li></div>
+        <div class="col-xs-3"><li>Git / GitLab CI</li></div>
+        <div class="col-xs-3"><li>PostgreSQL / CNPG</li></div>
         <div class="col-xs-3"><li>Kubernetes</li></div>
-        <div class="col-xs-3"><li>Terraform</li></div>
-        <div class="col-xs-3"><li>Сети и протоколы</li></div>
+        <div class="col-xs-3"><li>Ceph / CephFS</li></div>
       </div>
       <div class="row">
-        <div class="col-xs-3"><li>MinIO</li></div>
-        <div class="col-xs-3"><li>KubeVirt</li></div>
+        <div class="col-xs-3"><li>ArgoCD</li></div>
+        <div class="col-xs-3"><li>ClickHouse</li></div>
+        <div class="col-xs-3"><li>Helm</li></div>
+        <div class="col-xs-3"><li>MinIO / RADOS Gateway</li></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3"><li>Terraform</li></div>
+        <div class="col-xs-3"><li>Redis</li></div>
+        <div class="col-xs-3"><li>Prometheus / Grafana</li></div>
+        <div class="col-xs-3"><li>TopoLVM / NFS</li></div>
+      </div>
+      <div class="row">
         <div class="col-xs-3"><li>Ansible</li></div>
         <div class="col-xs-3"><li>Kafka</li></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3"><li>TopoLVM</li></div>
-        <div class="col-xs-3"><li>Helm</li></div>
-        <div class="col-xs-3"><li>Git / GitLab CI</li></div>
-        <div class="col-xs-3"><li>PostgreSQL</li></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3"><li>NFS</li></div>
-        <div class="col-xs-3"><li>Docker</li></div>
-        <div class="col-xs-3"><li>ArgoCD</li></div>
-        <div class="col-xs-3"><li>Redis</li></div>
-      </div>
-      <div class="row">
-        <div class="col-xs-3"><li>Dorado</li></div>
-        <div class="col-xs-3"><li>Linux</li></div>
-        <div class="col-xs-3"><li>Prometheus / Grafana</li></div>
-        <div class="col-xs-3"><li>ClickHouse</li></div>
-      </div>
-      <div class="row">
         <div class="col-xs-3"><li>Velero</li></div>
-        <div class="col-xs-3"><li>Скриптовые языки</li></div>
+        <div class="col-xs-3"><li>Dorado</li></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3"><li>Nexus / Harbor</li></div>
+        <div class="col-xs-3"><li>PGAdmin / PeerDB</li></div>
+        <div class="col-xs-3"><li>KubeVirt / ApplicationSet</li></div>
+        <div class="col-xs-3"><li>Linux / Bash / YAML</li></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3"><li>Vault</li></div>
         <div class="col-xs-3"><li>ElasticSearch</li></div>
-        <div class="col-xs-3"><li>Nginx</li></div>
+        <div class="col-xs-3"><li>Keycloak</li></div>
+        <div class="col-xs-3"><li>S3 / Object Storage</li></div>
       </div>
 
     </div>
@@ -192,11 +192,11 @@
         <h2>О себе</h2>
       </div>
       <div class="col-md-9">
-        <p>Я инженер, специализирующийся на высоконадежных системах хранения данных, контейнерной оркестрации и автоматизации инфраструктуры. Основной фокус моей работы - обеспечение устойчивости и масштабируемости Kubernetes-кластеров, настройка и поддержание работы Ceph, MinIO, TopoLVM и NFS-хранилищ.
-        На практике применяю DevOps-подходы, использую Helm, Terraform, Ansible и другие инструменты для автоматизации и поддержки отказоустойчивых решений. Интересуюсь глубокой архитектурой хранилищ, сетевыми технологиями и развитием cloud-native-инфраструктуры.
-        Продолжаю совершенствовать навыки в Go и системном программировании, развиваюсь в направлении SRE и инфраструктурной инженерии.
+        <p>Я инженер, работающий на стыке DevOps и SRE-практик. Основной опыт связан с сопровождением и развитием Kubernetes-кластеров и систем хранения данных (Ceph, MinIO, TopoLVM, NFS). Участвовал в развертывании и сопровождении приложений через ArgoCD, в работе с Helm-чартами, CI/CD на GitLab, а также с инструментами управления инфраструктурой — Terraform и Ansible.
+Принимал участие в восстановлении проектов из бэкапов, настройке резервного копирования, управлении секретами через Vault, работе с PostgreSQL, ClickHouse, Redis, Kafka.
+Интересуюсь архитектурой отказоустойчивых систем, автоматизацией процессов и современными подходами к эксплуатации инфраструктуры. Постепенно расширяю свои компетенции в разработке на Go и системном программировании.
 
-Моя цель - разрабатывать устойчивые и масштабируемые решения, постоянно совершенствуя свои технические и инженерные навыки.</p>
+Моя цель - развиваться в направлении DevOps-инженерии, создавая надёжные и масштабируемые решения, применяя практический опыт и готовность учиться новому.</p>
       </div>
     </div>
   </div>
